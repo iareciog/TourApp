@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 
@@ -43,7 +44,26 @@ public class HistoricalFragment extends Fragment {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Zone zone = zones.get(position);
+
+                if (zone.toString().equals(getResources().getString(R.string.historical_alhambra))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.historical_cathedral))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.historical_madraza))){
+
+                }else{
+
+                }
+
+            }
+        });
+
         return rootView;
+
     }
 
 }

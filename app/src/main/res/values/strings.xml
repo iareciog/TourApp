@@ -11,15 +11,15 @@
 
     <string name="historical_alhambra">Alhambra</string>
     <string name="historical_cathedral">Cathedral and Real Chappel</string>
-    <string name="historical_sacromonte">Sacromonte\'s Abady</string>
-    <string name="historical_madraza">The Madraza</string>
+    <string name="historical_sacromonte">Abadia del Sacromonte</string>
+    <string name="historical_madraza">La Madraza</string>
 
     <string name="restaurant_alhambra_palace">Alhambra Palace</string>
     <string name="restaurant_taquilla">La Taquilla</string>
     <string name="restaurant_ricon_lorca">El Rincon de Lorca</string>
     <string name="restaurant_laseda">Laseda</string>
 
-    <string name="park_garicialorca">Garcia Lorca Park</string>6
+    <string name="park_garcialorca">Garcia Lorca Park</string>6
     <string name="park_triunfo">Triumph</string>
     <string name="park_almunia">Almunia Park</string>
     <string name="park_rafael_fernandez">Rafael Fernandez Piñar</string>

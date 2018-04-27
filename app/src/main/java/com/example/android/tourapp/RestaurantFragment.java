@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -42,6 +43,24 @@ public class RestaurantFragment extends Fragment {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Zone zone = zones.get(position);
+
+                if (zone.toString().equals(getResources().getString(R.string.restaurant_alhambra_palace))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.restaurant_laseda))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.restaurant_ricon_lorca))){
+
+                }else{
+
+                }
+
+            }
+        });
 
         return rootView;
     }

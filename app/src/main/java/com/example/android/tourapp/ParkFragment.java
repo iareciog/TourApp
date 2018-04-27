@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,7 +26,7 @@ public class ParkFragment extends Fragment {
 
         final ArrayList<Zone> zones = new ArrayList<Zone>();
         zones.add(new Zone(R.string.park_almunia));
-        zones.add(new Zone(R.string.park_garicialorca));
+        zones.add(new Zone(R.string.park_garcialorca));
         zones.add(new Zone(R.string.park_rafael_fernandez));
         zones.add(new Zone(R.string.park_triunfo));
 
@@ -41,6 +42,24 @@ public class ParkFragment extends Fragment {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Zone zone = zones.get(position);
+
+                if (zone.toString().equals(getResources().getString(R.string.park_almunia))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.park_garcialorca))){
+
+                }else if (zone.toString().equals(getResources().getString(R.string.park_rafael_fernandez))){
+
+                }else{
+
+                }
+
+            }
+        });
 
         return rootView;
     }
