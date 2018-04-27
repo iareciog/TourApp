@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/launcher_image"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/marginUpDown"
         android:text="@string/launcher_text" />
 
 </RelativeLayout>

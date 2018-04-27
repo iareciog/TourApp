@@ -2,5 +2,8 @@
 <resources>
 
     <dimen name="list_item_size">50dp</dimen>
+    <dimen name="marginUpDown">16dp</dimen>
+    <dimen name="infoTextMarginUp">18dp</dimen>
+    <dimen name="infoTextMarginLeftRight">12dp</dimen>
 
 </resources>
