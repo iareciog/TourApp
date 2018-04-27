@@ -17,7 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenuActivity" />
-        <activity android:name=".InfoActivity"/>
+        <activity android:name=".InfoActivity"
+            android:parentActivityName=".MainMenuActivity">
+            <meta-data
+                android:name="android.support.MainMenuActivity"
+                android:value=".MainMenuActivity"/>
+        </activity>
     </application>
 
 </manifest>
