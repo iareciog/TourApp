@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorHistorical">#795548</color>
+    <color name="colorMountains">#5E35B1</color>
+    <color name="colorPark">#66BB6A</color>
+    <color name="colorRestaurant">#FF7043</color>
+
+    <color name="normal">#BDBDBD</color>
+    <color name="selected">#FAFAFA</color>
+</resources>

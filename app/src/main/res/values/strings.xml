@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TourApp</string>
+
+    <string name="category_historical">Historical Monument</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_park">Parks</string>
+    <string name="category_mountains">Mountains</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="historical_alhambra">Alhambra</string>
+    <string name="historical_cathedral">Cathedral and Real Chappel</string>
+    <string name="historical_sacromonte">Sacromonte\'s Abady</string>
+    <string name="historical_madraza">The Madraza</string>
+
+    <string name="restaurant_alhambra_palace">Alhambra Palace</string>
+    <string name="restaurant_taquilla">La Taquilla</string>
+    <string name="restaurant_ricon_lorca">El Rincon de Lorca</string>
+    <string name="restaurant_laseda">Laseda</string>
+
+    <string name="park_garicialorca">Garcia Lorca Park</string>6
+    <string name="park_triunfo">Triumph</string>
+    <string name="park_almunia">Almunia Park</string>
+    <string name="park_rafael_fernandez">Rafael Fernandez Piñar</string>
+
+    <string name="mountain_mulhacen">Mulhacen</string>
+    <string name="mountain_veleta">Veleta</string>
+    <string name="mountain_trevenque">Trevenque</string>
+    <string name="mountain_alcazaba">Alcazaba</string>
+
+</resources>
