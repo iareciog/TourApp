@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TourApp</string>
 
+    <string name="launcher_contentDescription">launcherImage</string>
+    <string name="launcher_text">Click to Start</string>
+
     <string name="category_historical">Historical Monument</string>
     <string name="category_restaurant">Restaurants</string>
     <string name="category_park">Parks</string>
@@ -10,7 +13,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="historical_alhambra">Alhambra</string>
-    <string name="historical_cathedral">Cathedral and Real Chappel</string>
+    <string name="historical_cathedral">Cathedral</string>
     <string name="historical_sacromonte">Abadia del Sacromonte</string>
     <string name="historical_madraza">La Madraza</string>
 
@@ -20,13 +23,58 @@
     <string name="restaurant_laseda">Laseda</string>
 
     <string name="park_garcialorca">Garcia Lorca Park</string>6
-    <string name="park_triunfo">Triumph</string>
+    <string name="park_triunfo">Triunfo</string>
     <string name="park_almunia">Almunia Park</string>
-    <string name="park_rafael_fernandez">Rafael Fernandez Piñar</string>
+    <string name="park_cruz_lagos">Cruz de Lagos</string>
 
     <string name="mountain_mulhacen">Mulhacen</string>
     <string name="mountain_veleta">Veleta</string>
     <string name="mountain_trevenque">Trevenque</string>
     <string name="mountain_alcazaba">Alcazaba</string>
+
+    <string name="text_h_alhambra">The Alhambra is an Andalusian palatine city located in Granada,
+        in the autonomous community of Andalusia, Spain.</string>
+    <string name="text_h_cathedral">The Holy Metropolitan Cathedral Church of the "Encarnación de Granada"
+        is a Catholic temple in the Spanish city of Granada, home to the city's archdiocese.</string>
+    <string name="text_h_sacromonte">The Sacromonte Abbey, located to the northeast of the Spanish city of Granada, is well accessed by the
+        Sacromonte road, which starts at the Weight of the flour located in the middle of the Cuesta del Chapiz,
+        or on the way of San Antonio starting from Haza Grande.</string>
+    <string name="text_h_madraza">The Madrasa of Granada (in Arabic, مدرسة, \'school\', also called Yusufiyya,
+        House of Science or Palace of the Madraza) was the first university that had Granada, in Spain.
+        It was inaugurated in 1349 by the Nasrid king Yusuf I of Granada. [Citation needed] Currently this
+        palace belongs to the University of Granada, dedicating almost the entire building to cultural activities.
+        It is also the seat of the Royal Academy of Fine Arts of Our Lady of Sorrows.</string>
+
+    <string name="text_r_alhambra_palace">Hotel Alhambra Palace is an emblematic luxury hotel and palace
+        in the heart of the Alhambra in Granada.</string>
+    <string name="text_r_taquilla">In the center of Granada, near the bullring and La Caleta, Antonio
+        and Paqui run the La Taquilla restaurant, a cozy place where you will delight yourself with
+        good wines and better tapas made with maximum product maximum quality products. The attention
+        offered and a warm and friendly atmosphere embrace you to make you feel at home.</string>
+    <string name="text_r_ricon_lorca">El Rincón de Lorca - all the traditional flavor with touches of modern cuisine.
+        In the historic center of the city of Granada. The best product elaborated and served in a cozy atmosphere full of history.</string>
+    <string name="text_r_laseda">Laseda Restaurant in Granada: The Laseda restaurant is located in the Plaza de Bib-Rambla
+        (or Bibarrambla), also known for its popular.</string>
+
+    <string name="text_p_garcialorca">The park Federico García Lorca is a public park in the city of Granada,
+        Spain, built in tribute to the Granada poet Federico García Lorca.</string>
+    <string name="text_p_triunfo">The Jardines del Triunfo in Granada was in the Arab period an extensive cemetery, founded in the s. XIII.
+
+The cemetery was surrounded by a strong wall and defended at the entrance of each of the access roads to the town by doors with towers.</string>
+    <string name="text_p_almunia">Delimited by the roads Avda. De Andalucía, Calle Periodista Eugenio
+        Selles and Calle Journalista José Mezcua Ruiz extends this beautiful park.</string>
+    <string name="text_p_cruz_lagos">Located on the Carretera de Motril, at the height of Calle Recorder
+        David Roberts, its total area is 4151 m 2.</string>
+
+    <string name="text_m_mulhacen">The Mulhacén, with an altitude of 3,478.6 meters above sea level,
+        is the highest peak in the Iberian Peninsula and the second in Spain behind the Teide, 3,718
+        meters above sea level. The Mulhacén is part of the Sierra Nevada National Park.</string>
+    <string name="text_m_veleta">The Peak of Veleta is, with an altitude of 3395.68 meters above sea level,
+        the fourth highest summit in Spain and second of its mountain range, only behind the Teide, Mulhacén and Aneto.</string>
+    <string name="text_m_trevenque">The Trevenque peak is a mountain located on the northwest face of the Sierra Nevada,
+        between the municipalities of Dílar and Monachil. The Trevenque has a height of 2,079 meters.
+        The top of this dolomitic peak is accessible on foot by two routes.</string>
+    <string name="text_m_alcazaba">The Alcazaba is, with 3,371 meters, the sixth highest summit in Spain,
+        behind the Teide, Mulhacén, Pico de Aneto, Veleta Peak and Pico Posets.</string>
 
 </resources>

@@ -5,6 +5,9 @@ public class Zone {
     /** Zone name */
     private int mName;
 
+    /** Zone text */
+    private int mText;
+
     /** Image resource ID for the zone */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
@@ -14,30 +17,38 @@ public class Zone {
     /**
      * Create a new Word object.
      *
-     * @param name is the word in a language that the user is already familiar with
-     *                           (such as English)
+     * @param name is the name of the zone
+     * @param text is the info text
      */
-    public Zone(int name) {
+    public Zone(int name, int text) {
         mName = name;
+        mText = text;
     }
 
     /**
      * Create a new Word object.
      *
-     * @param name is the word in a language that the user is already familiar with
+     * @param name is the name of the zone
+     * @param text is the info text
      * @param imageResourceId is the drawable resource ID for the image associated with the word
      *
      */
-    public Zone(int name, int imageResourceId ) {
+    public Zone(int name, int text, int imageResourceId ) {
         mName = name;
+        mText = text;
         mImageResourceId = imageResourceId;
     }
 
     /**
-     * Get the default translation of the word.
+     * Get the Zone Name;
      */
-    public int getName() {
-        return mName;
+    public int getName() { return mName;  }
+
+    /**
+     * Get the text for the Zone.
+     */
+    public int getText() {
+        return mText;
     }
 
     /**

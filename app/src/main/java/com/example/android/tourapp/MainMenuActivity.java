@@ -15,7 +15,7 @@ public class MainMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
         // Find the view pager that will allow the user to swipe between fragments
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager viewPager = findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
         CategoryAdapter fragmentAdapter = new CategoryAdapter(getSupportFragmentManager(), this );
@@ -23,7 +23,7 @@ public class MainMenuActivity extends AppCompatActivity {
         // Set the adapter onto the view pager
         viewPager.setAdapter(fragmentAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
 
         tabLayout.setupWithViewPager(viewPager);
         tabLayout.setTabTextColors(getResources().getColor(R.color.normal),getResources().getColor(R.color.selected));
